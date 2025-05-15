@@ -1,24 +1,4 @@
-"""numpy library - base for libraries like pandas
-NUMPY IS A MULTI DIMENSIONAL ARRAY LIBRARY 
-WE CAN USE NUMPY TO STORE IN 1D,2D ARRAY , ETC
-we use numpy over lists as numpy is faster
-numpy uses fixed types
-eg numpy can store 5 in bytes like 
-default int 32 (4 bytes) 00000000 00000000 00000000 00000101
-we can also specify as 3,2,1 byte as per requirement
-but in lists we need Object Value, Object Type, Reference Count, Size
-Object type - type of object like int , str, list , etc
-Object value - data/value the object holds
-Reference count - number of varaibles or objects pointing to that object 
-Size - how much memory the object uses
-in C programming int and float can overflow
-in python only float can overflow , int cannpot overflow it can grow as needed 
-using arbitrary precision
-Arbitrary precision means it doesnt limit size of int to 32 or 64 bit , it just
-allocates more memory to store the result if needed
-max size is limited by RAM for integers in python - it is slower but never overflows
-max size for floats in python is 64 bit
-to store more than 64 bits we can use decimal.Decimal
-decimal is the module
-Decimal is the class 
-
+//1D NUMPY ARRAY
+import numpy as np
+a = np.array([1,2,3])
+print(a)
