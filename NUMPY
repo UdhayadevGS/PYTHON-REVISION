@@ -1,4 +1,37 @@
-//1D NUMPY ARRAY
 import numpy as np
-a = np.array([1,2,3])
-print(a)
+
+#1d array
+a=np.array([1,2,3],dtype='int8') # by default dtype is int64 for each element but we only need int8 for each element as it is within the range of int8
+
+#2d array
+b=np.array([[1.0,2.0,3.0],[4.0,5.0,6.0]])
+
+#printing array
+print("ARRAY a is :" , a)
+print("ARRAY b is :", b)
+
+#no of dimensions
+print("No of dimensions of a :" , a.ndim)
+print("No of dimension of b :" ,b.ndim)
+
+#shape of array
+print("Shape of a : " ,a.shape)
+print ("Shape of b: ", b.shape)
+
+#getting type and size in bits of each element = dtype
+print(a.dtype,"is the size in bits")
+print(b.dtype,"is the size in bits")
+
+#getting size in bytes of  each element = itemsize
+print(a.itemsize,"bytes is the size in bytes")
+print(b.itemsize,"bytes is the size in bytes")
+
+#size - gives total number of elements
+print("Size of a : ", a.size,"elements")
+print("Size of b : ", b.size,"elements")
+
+#to get total size of the array we can do size*itemsize or use nbytes
+print("Total size of a : ", a.size*a.itemsize,"bytes")
+print("Total size of b : ", b.size*b.itemsize,"bytes")
+print("Total size of a : ", a.nbytes,"bytes")
+print("Total size of b : ", b.nbytes,"bytes")
