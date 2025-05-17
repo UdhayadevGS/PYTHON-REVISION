@@ -1,4 +1,4 @@
-Pandasfolder/Pandas
+
 #simple panda syntaxes
   import pandas as pd
 
@@ -22,7 +22,6 @@ print("UNIQUE ELEMENTS IN COLUMN a",data['a'].unique())
 
 print("SHAPE: \n",data.shape)
 print("NO OF ELEMENTS: \n",data.size)
-Move simple_pandas.py into pandas folder
 
   ##################################################################33
 #pandas -> importing data and making changes to them
