@@ -24,7 +24,6 @@ print("SHAPE: \n",data.shape)
 print("NO OF ELEMENTS: \n",data.size)
 
   ##################################################################33
-#pandas -> importing data and making changes to them
-Move Pandas.py into pandas folder
+
 
   
